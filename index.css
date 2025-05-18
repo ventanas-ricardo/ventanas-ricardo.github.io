@@ -1,0 +1,93 @@
+html,body
+{
+background-color: #17202a;
+margin: 0%;
+}
+
+.texts
+{
+color: whitesmoke;
+font-size: 24px;
+}
+
+.sidediv
+{
+width: 20%;
+height: 100%;
+}
+
+
+@keyframes slideBackground {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 200%;
+    }
+}
+
+.main_div {
+    width: 80%;
+    height: 100%;
+    background-image: url(assets/images/ventanasricardo.png);
+    background-size: 8%;
+    background-repeat: repeat; 
+    animation: slideBackground 30s linear infinite;
+}
+
+.main_container
+{
+display: flex;
+gap:1%;
+height: 100vh;
+}
+
+
+/* listing crap */
+
+.listing
+{
+    display: grid;
+grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    column-gap: 5%;
+    padding-top: 1%;
+}
+
+.l_item {
+    margin-left: 16px;
+    margin-bottom: 2%;
+
+    padding-left:  2%;
+    padding-right: 8%;
+    padding-bottom: 1%;
+
+
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    background-color: gray;
+}
+
+.l_item_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+}
+
+.l_item_image {
+    width: 128px;
+    height: 128px;
+}
+
+.l_item_text {
+    margin: 0;
+    font-size: 32px;
+    text-align: center;
+}
+
+.l_item_button {
+    cursor: pointer;
+    font-size: 32px;
+}
+
