@@ -1,6 +1,9 @@
 html,body
 {
-background-color: #17202a;
+background-image: url(assets/images/ventanasricardo.png);
+background-size: 8%;
+background-repeat: repeat; 
+animation: slideBackground 30s linear infinite;
 margin: 0%;
 }
 
@@ -12,6 +15,8 @@ font-size: 24px;
 
 .sidediv
 {
+position: fixed;
+background-color: #17202a;
 width: 20%;
 height: 100%;
 }
@@ -22,24 +27,21 @@ height: 100%;
         background-position: 0% 0%;
     }
     100% {
-        background-position: 100% 200%;
+        background-position: 32% 8%;
     }
 }
 
 .main_div {
     width: 80%;
     height: 100%;
-    background-image: url(assets/images/ventanasricardo.png);
-    background-size: 8%;
-    background-repeat: repeat; 
-    animation: slideBackground 30s linear infinite;
+    padding-left: 20%;
 }
 
 .main_container
 {
 display: flex;
 gap:1%;
-height: 100vh;
+height: 100%;
 }
 
 
@@ -54,7 +56,7 @@ grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 .l_item {
-    margin-left: 16px;
+    margin-left: 1%;
     margin-bottom: 2%;
 
     padding-left:  2%;
