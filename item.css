@@ -1,0 +1,141 @@
+@keyframes slide_anim {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+@keyframes slide_anim_2 {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    100% {
+        background-position: -100% -100%;
+    }
+}
+
+
+body {
+    background-image: url(assets/images/ventanasricardo.png);
+    background-size: 8%;
+    background-repeat: repeat;
+    animation: slide_anim 20s linear infinite;
+}
+
+.button_getback
+{
+cursor: pointer;
+display: flex;
+flex-direction: row;
+height: 15%;
+font-size: 32px;
+}
+
+.button_getback_img
+{
+padding-top: 8px;
+width: 32px;
+height: 32px;
+}
+
+.container {
+    background-image: url(assets/images/ventanasricardo.png);
+    filter: invert(1);
+    background-size: 8%;
+    background-repeat: repeat;
+    animation: slide_anim_2 20s linear infinite;
+
+    display: flex;
+    gap: 0px;
+    margin: 15%;
+    padding: 2%;
+    flex-direction: column;
+}
+
+.buy_top {
+    display: flex;
+    flex-direction: row;
+    filter: invert(1);
+    
+    padding: 0px;
+    margin-bottom: 1%;
+}
+
+.buy_bottom {
+    display: flex;
+    flex-direction: row;
+    filter: invert(1);
+    padding: 0px;
+    margin: 0px;
+}
+
+.buy_img {
+    width: 128px;
+    height: 128px;
+}
+
+.buy_text {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 32px;
+    margin-left: 32px;
+    color: white;
+    margin-right: 15%;
+}
+
+.buy_button {
+    cursor: pointer;
+    filter: invert(1);
+    padding: 2%;
+    font-size: 32px;
+    height: 15%;
+}
+
+.buy_comments {
+    display: flex;
+    flex-direction: column;
+    background-color:gray;
+    padding: 1%;
+    margin-right: 20%;
+
+}
+
+.buy_comment
+{
+display: flex;
+flex-direction: column;
+margin-bottom: 1%;
+}
+
+.buy_comment_top
+{
+display: flex;
+flex-direction: row;
+}
+
+.buy_comment_bottom 
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.buy_comment_item_text {
+    font-size: 16px;
+    color: white;
+}
+
+.buy_comment_item_uname {
+    font-size: 20px;
+    color: white;
+}
+
+.buy_comment_img
+{
+    width: 64px;
+    height:64px;
+    margin-right: 32px;
+}

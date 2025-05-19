@@ -1,34 +1,33 @@
-html,body
-{
-background-image: url(assets/images/ventanasricardo.png);
-background-size: 8%;
-background-repeat: repeat; 
-animation: slideBackground 30s linear infinite;
-margin: 0%;
+html,
+body {
+    background-image: url(assets/images/ventanasricardo.png);
+    background-size: 8%;
+    background-repeat: repeat;
+    animation: slide_anim 30s linear infinite;
+    margin: 0%;
 }
 
-.texts
-{
-color: whitesmoke;
-font-size: 24px;
+.texts {
+    color: whitesmoke;
+    font-size: 24px;
 }
 
-.sidediv
-{
-position: fixed;
-overflow-y: scroll;
-scrollbar-width: none;
--ms-overflow-style: none;
-background-color: #17202a;
-width: 20%;
-height: 100%;
+.sidediv {
+    position: fixed;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    background-color: #17202a;
+    width: 20%;
+    height: 100%;
 }
 
 
-@keyframes slideBackground {
+@keyframes slide_anim {
     0% {
         background-position: 0% 0%;
     }
+
     100% {
         background-position: 32% 8%;
     }
@@ -40,30 +39,28 @@ height: 100%;
     padding-left: 20%;
 }
 
-.main_container
-{
-display: flex;
-gap:1%;
-height: 100%;
+.main_container {
+    display: flex;
+    gap: 1%;
+    height: 100%;
 }
 
 
 /* listing crap */
 
-.listing
-{
+.listing {
     display: grid;
-grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
     column-gap: 5%;
     padding-top: 1%;
 }
 
 .l_item {
-    margin-left: 5%;
+    margin-left: 1%;
     margin-bottom: 2%;
 
     padding-top: 1%;
-    padding-left:  2%;
+    padding-left: 2%;
     padding-right: 2%;
     padding-bottom: 1%;
 
@@ -96,4 +93,3 @@ grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
     cursor: pointer;
     font-size: 32px;
 }
-

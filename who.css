@@ -1,23 +1,27 @@
-@keyframes slideBackground {
+@keyframes slide_anim {
     0% {
         background-position: 0% 0%;
     }
+
     100% {
         background-position: 100% -800%;
     }
 }
 
 
-body
-{
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url(assets/images/ventanasricardo.png);
     background-size: 8%;
-    background-repeat: repeat; 
-    animation: slideBackground 30s linear infinite;
+    background-repeat: repeat;
+    animation: slide_anim 30s linear infinite;
+
 }
 
-.container
-{
-text-align: center;
-font-size: 32px;
+.container {
+    text-align: center;
+    font-size: 32px;
+
 }
