@@ -16,6 +16,9 @@ font-size: 24px;
 .sidediv
 {
 position: fixed;
+overflow-y: scroll;
+scrollbar-width: none;
+-ms-overflow-style: none;
 background-color: #17202a;
 width: 20%;
 height: 100%;
@@ -50,17 +53,18 @@ height: 100%;
 .listing
 {
     display: grid;
-grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
     column-gap: 5%;
     padding-top: 1%;
 }
 
 .l_item {
-    margin-left: 1%;
+    margin-left: 5%;
     margin-bottom: 2%;
 
+    padding-top: 1%;
     padding-left:  2%;
-    padding-right: 8%;
+    padding-right: 2%;
     padding-bottom: 1%;
 
 
