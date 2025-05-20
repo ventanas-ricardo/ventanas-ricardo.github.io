@@ -21,121 +21,87 @@
 
 body {
     background-image: url(assets/images/ventanasricardo.png);
-    background-size: 8%;
     background-repeat: repeat;
-    animation: slide_anim 20s linear infinite;
+    background-size: 8%;
+    animation: slide_anim 10s linear infinite;
 }
 
-.button_getback
-{
-cursor: pointer;
-display: flex;
-flex-direction: row;
-height: 15%;
-font-size: 32px;
+.button_getback {
+    margin-left: auto;
+    align-self: center;
 }
 
-.button_getback_img
-{
-padding-top: 8px;
-width: 32px;
-height: 32px;
+.button_getback_img {
+    width: 8%;
 }
 
 .container {
-    background-image: url(assets/images/ventanasricardo.png);
-    filter: invert(1);
-    background-size: 8%;
-    background-repeat: repeat;
-    animation: slide_anim_2 20s linear infinite;
-
+    width: 50%;
+    height: 50%;
     display: flex;
-    gap: 0px;
-    margin: 15%;
-    padding: 2%;
+    justify-content: flex-start;
     flex-direction: column;
+    background-image: url(assets/images/ventanasricardo.png);
+    background-repeat: repeat;
+    background-size: 8%;
+    animation: slide_anim_2 10s linear infinite;
 }
 
 .buy_top {
     display: flex;
     flex-direction: row;
-    filter: invert(1);
-    
-    padding: 0px;
-    margin-bottom: 1%;
 }
 
 .buy_bottom {
     display: flex;
     flex-direction: row;
-    filter: invert(1);
-    padding: 0px;
-    margin: 0px;
 }
 
 .buy_img {
-    width: 128px;
-    height: 128px;
+    width: 8%;
+    height: 8%;
 }
 
 .buy_text {
-    text-align: center;
-    font-size: 32px;
-    margin-top: 32px;
-    margin-left: 32px;
-    color: white;
-    margin-right: 15%;
+    font-size: 200%;
 }
 
 .buy_button {
-    cursor: pointer;
-    filter: invert(1);
-    padding: 2%;
-    font-size: 32px;
-    height: 15%;
+    margin-left: auto;
+    align-self: center;
 }
 
 .buy_comments {
     display: flex;
     flex-direction: column;
-    background-color:gray;
+    background-color: lightgray;
     padding: 1%;
-    margin-right: 20%;
-
 }
 
-.buy_comment
-{
-display: flex;
-flex-direction: column;
-margin-bottom: 1%;
+.buy_comment {
+    display: flex;
+    flex-direction: column;
 }
 
-.buy_comment_top
-{
-display: flex;
-flex-direction: row;
+.buy_comment_top {
+    display: flex;
+    flex-direction: row;
 }
 
-.buy_comment_bottom 
-{
+.buy_comment_bottom {
     display: flex;
     flex-direction: row;
 }
 
 .buy_comment_item_text {
-    font-size: 16px;
-    color: white;
+    font-size: 75%;
 }
 
 .buy_comment_item_uname {
-    font-size: 20px;
-    color: white;
+    font-size: 75%;
 }
 
-.buy_comment_img
-{
-    width: 64px;
-    height:64px;
-    margin-right: 32px;
+.buy_comment_img {
+    width: 8%;
+    height: 8%;
 }
