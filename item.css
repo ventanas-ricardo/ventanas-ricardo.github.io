@@ -24,20 +24,13 @@ body {
     background-repeat: repeat;
     background-size: 8%;
     animation: slide_anim 10s linear infinite;
-}
-
-.button_getback {
-    margin-left: auto;
-    align-self: center;
-}
-
-.button_getback_img {
-    width: 8%;
+    margin:0;
 }
 
 .container {
-    width: 50%;
-    height: 50%;
+    margin-top: 128px;
+    margin-left: 12.5%;
+    width: 75%;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -50,6 +43,7 @@ body {
 .buy_top {
     display: flex;
     flex-direction: row;
+    margin-bottom: 1%;
 }
 
 .buy_bottom {
@@ -58,8 +52,9 @@ body {
 }
 
 .buy_img {
-    width: 8%;
-    height: 8%;
+    margin-left: 2%;
+    width: 128px;
+    height: 128px;
 }
 
 .buy_text {
@@ -67,14 +62,27 @@ body {
 }
 
 .buy_button {
+    font-size: 32px;
     margin-left: auto;
     align-self: center;
+    padding: 0;
+    margin-right: 64px;
 }
+
+.button_getback {
+    font-size: 32px;
+    margin-left: auto;
+    align-self: center;
+    padding: 0;
+    margin-right: 64px;
+}
+
 
 .buy_comments {
     display: flex;
     flex-direction: column;
     background-color: lightgray;
+    margin-left: 2%;
     padding: 1%;
 }
 
