@@ -10,9 +10,20 @@ body {
 .texts {
     color: whitesmoke;
     font-size: 24px;
+    align-self: center;
+}
+
+.sidediv_href
+{
+align-self: center;
+font-size: 32px;
+color: whitesmoke;
 }
 
 .sidediv {
+    display: flex;
+    flex-direction: column;
+
     position: fixed;
     overflow-y: scroll;
     scrollbar-width: none;
