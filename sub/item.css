@@ -20,7 +20,7 @@
 
 
 body {
-    background-image: url(assets/images/ventanasricardo.png);
+    background-image: url(../assets/images/ventanasricardo.png);
     background-repeat: repeat;
     background-size: 8%;
     animation: slide_anim 10s linear infinite;
@@ -34,7 +34,7 @@ body {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    background-image: url(assets/images/ventanasricardo.png);
+    background-image: url(../assets/images/ventanasricardo.png);
     background-repeat: repeat;
     background-size: 8%;
     animation: slide_anim_2 10s linear infinite;

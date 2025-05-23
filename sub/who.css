@@ -13,7 +13,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(assets/images/ventanasricardo.png);
+    background-image: url(../assets/images/ventanasricardo.png);
     background-size: 8%;
     background-repeat: repeat;
     animation: slide_anim 30s linear infinite;
