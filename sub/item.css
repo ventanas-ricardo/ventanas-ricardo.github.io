@@ -67,6 +67,7 @@ body {
     align-self: center;
     padding: 0;
     margin-right: 64px;
+    cursor:not-allowed;
 }
 
 .button_getback {
@@ -75,6 +76,7 @@ body {
     align-self: center;
     padding: 0;
     margin-right: 64px;
+    cursor: pointer;
 }
 
 
