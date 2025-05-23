@@ -13,11 +13,10 @@ body {
     align-self: center;
 }
 
-.sidediv_href
-{
-align-self: center;
-font-size: 32px;
-color: whitesmoke;
+.sidediv_href {
+    align-self: center;
+    font-size: 32px;
+    color: whitesmoke;
 }
 
 .sidediv {

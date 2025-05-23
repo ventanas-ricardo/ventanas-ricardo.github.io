@@ -1,7 +1,6 @@
-window.onload = function() 
-{
-let audio=new Audio("assets/sound/bienvenidoaricardo.wav");
-audio.play();
+window.onload = function () {
+    let audio = new Audio("assets/sound/bienvenidoaricardo.wav");
+    audio.play();
 }
 
 
